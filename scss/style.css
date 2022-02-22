@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size:larger;
+}
+
+.warpper {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border:1px solid gray;
+  background-color: beige;
+  display: flex;
+  justify-content: center
+}
+
+.game-content{
+  height: 500px;
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rules{
+  border:1px dotted gray;
+  background-color: antiquewhite;
+  height: 260px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+button{
+  border-color: pink;
+  background-color: pink;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.controls-button{
+  height: 70px;
+  width: 130px;
+  font-weight: bold;
+  font-size: large;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#reset{
+  font-weight: normal;
+  font-size: small;
+  height: 20px;
+  width: 120px;
+}
+
+#log{
+
+  width: 400px;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  overflow: auto;
+  text-align: center;
+}
