@@ -30,6 +30,7 @@ body{
 }
 
 .rules{
+  border-radius: 5px;
   border: 2px solid green;
   background-color: white;
   height: 200px;
@@ -61,6 +62,7 @@ button:hover{
 
 #reset{
   color: red;
+  border-color: white;
   font-weight: normal;
   font-size: small;
   height: 20px;
@@ -68,6 +70,7 @@ button:hover{
 }
 
 #log{
+  border-radius: 5px;
   border: 2px solid green;
   background-color: white;
   width: 400px;
