@@ -30,7 +30,7 @@ body{
 .rules{
   border:1px dotted gray;
   background-color: antiquewhite;
-  height: 260px;
+  height: 200px;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ button:hover{
 }
 
 #log{
-
+  background-color: white;
   width: 400px;
   height: 100px;
   border: 1px solid black;
