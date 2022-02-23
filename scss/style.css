@@ -7,15 +7,17 @@ body{
 }
 
 .warpper {
+  margin-top: 5px;
   height: 500px;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
   border:1px solid gray;
-  background-color: beige;
+  background-color: black;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  box-shadow: -3px -3px green;
 }
 
 .game-content{
@@ -28,8 +30,8 @@ body{
 }
 
 .rules{
-  border:1px dotted gray;
-  background-color: antiquewhite;
+  border: 2px solid green;
+  background-color: white;
   height: 200px;
   width: 400px;
   display: flex;
@@ -39,8 +41,9 @@ body{
 }
 
 button{
-  border-color: pink;
-  background-color: pink;
+  color: white;
+  border-color: green;
+  background-color: black;
   border-width: 1px;
   border-radius: 5px;
 }
@@ -57,6 +60,7 @@ button:hover{
 }
 
 #reset{
+  color: red;
   font-weight: normal;
   font-size: small;
   height: 20px;
@@ -64,10 +68,10 @@ button:hover{
 }
 
 #log{
+  border: 2px solid green;
   background-color: white;
   width: 400px;
   height: 100px;
-  border: 1px solid black;
   box-sizing: border-box;
   overflow: auto;
   text-align: center;
